@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="05e4bc993a884e48ac63ffd0ea1df5ef" Name="Diagram1">
+        <EntityTypeShape EntityType="DatabaseModel.Customer" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Department" Width="1.5" PointX="4.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.OrderProduct" Width="1.5" PointX="5.875" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Orders" Width="1.5" PointX="3" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Product" Width="1.5" PointX="7.125" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Visa" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <AssociationConnector Association="DatabaseModel.FK_Orders_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_Visa_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_Product_ToTable" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
